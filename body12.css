@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  display: grid;
+  font-family: sans-serif;
+}
+.wrapper {
+  margin: 10% 5%;
+}
+.timeline {
+  display: flex;
+  gap: 35px;
+  width: 100%;
+  height: 140px;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.timeline-item {
+  transition-duration: 0.5s;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  width: 120px;
+  position: relative;
+  color: var(--color);
+}
+
+.timeline-item::before {
+  content: "";
+  width: 250px;
+  height: 150px;
+  z-index: -1;
+  border-radius: 50%;
+  position: absolute;
+  background: conic-gradient(
+    var(--color) var(--angle),
+    transparent 0deg 360deg
+  );
+  animation: rotateBorder 1s linear var(--delay) forwards;
+}
+
+.timeline-item:nth-child(odd)::before {
+  transform: rotate(-90deg);
+}
+
+.timeline-item:nth-child(even)::before {
+  transform: rotate(90deg) scaleY(-1);
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.timeline-item:nth-child(1) {
+  --color: #eff492;
+  --delay: 0s;
+}
+
+.timeline-item:nth-child(2) {
+  --color: #c0d8b0;
+  --delay: 1s;
+}
+
+.timeline-item:nth-child(3) {
+  --color: #b5cfb7;
+  --delay: 2s;
+}
+
+.timeline-item:nth-child(4) {
+  --color: #ffd3b6;
+  --delay: 3s;
+}
+
+.timeline-item:nth-child(5) {
+  --color: #dca47c;
+  --delay: 4s;
+}
+.timeline-item:nth-child(6) {
+  --color: #7077a1;
+  --delay: 5s;
+}
+
+.timeline-item:nth-child(7) {
+  --color: #424769;
+  --delay: 6s;
+}
+.timeline-item:nth-child(8) {
+  --color: #2d3250;
+  --delay: 7s;
+}
+
+.timeline-item:nth-child(9) {
+  --color: #4d3c77;
+  --delay: 8s;
+}
+.timeline-item:nth-child(10) {
+  --color: #3f1d38;
+  --delay: 9s;
+}
+
+.timeline-item:nth-child(11) {
+  --color: #a2678a;
+  --delay: 10s;
+}
+
+.timeline-item:nth-child(odd) {
+  top: calc(100% + 47px);
+  transform: rotateX(180deg);
+  transform-origin: top;
+}
+
+.timeline-item:hover {
+  background: linear-gradient(145deg, var(--color), #1e2125);
+  color: white;
+}
+
+@keyframes rotateBorder {
+  from {
+    --angle: 0deg;
+  }
+
+  to {
+    --angle: 180deg;
+  }
+}
+
+.white,
+h1 {
+  color: white;
+  font-size: 5rem;
+  text-shadow: 2px 2px 2px black;
+}
+.infoText {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: orange;
+}
+.cta {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  color: white;
+  font-size: 1.5rem;
+}
+#back {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
