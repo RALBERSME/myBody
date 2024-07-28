@@ -629,7 +629,7 @@ const antibacHerbsArray = [
     name: "Clove (Syzygium aromaticum)",
     link: "https://www.britannica.com/plant/clove",
     image:
-      "https://cdn.pixabay.com/photo/2020/06/26/06/34/clover-5341820_640.jpg",
+      "https://cdn.pixabay.com/photo/2020/07/07/04/32/white-clover-5379217_960_720.jpg",
   },
   {
     name: "Garlic (Allium sativum)",
