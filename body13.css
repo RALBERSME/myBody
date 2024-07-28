@@ -84,6 +84,13 @@ h5:hover {
   font-size: 2rem;
   color: orangered;
 }
-#backToMain:hover {
+#backToMain:hover,
+#briefHistory:hover {
   color: white;
+}
+#briefHistory {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 1.25rem;
+  color: orangered;
 }
