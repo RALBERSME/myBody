@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+.intro {
+  margin: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 2rem;
+}
+.container {
+  margin: 2%;
+  width: 96%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: gray;
+  cursor: pointer;
+}
+a:hover {
+  color: orangered;
+}
+.brain,
+.heart {
+  text-align: center;
+}
+.brain {
+  background-color: rgb(249, 239, 241);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.heart {
+  background-color: rgb(248, 225, 228);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.lungs {
+  background-color: rgb(244, 206, 212);
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+}
+.kidney {
+  background-color: rgb(245, 188, 197);
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+}
+.liver {
+  background-color: rgb(251, 175, 187);
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+}
+.imgBrain:hover {
+  transform: translateX(250px) translateY(100px) scale(3);
+  padding: 30px;
+  background-color: white;
+}
+.imgHeart:hover {
+  transform: translateX(250px) translateY(100px) scale(3);
+  padding: 30px;
+  background-color: white;
+}
+.imgLungs:hover {
+  transform: translateX(0px) translateY(0px) scale(3);
+  padding: 30px;
+  background-color: white;
+}
+.imgKidney:hover {
+  transform: translateX(-200px) translateY(0px) scale(3);
+  padding: 30px;
+  background-color: white;
+}
+.imgLiver:hover {
+  transform: translateX(-300px) translateY(0px) scale(3);
+  padding: 30px;
+  background-color: white;
+}
+
+#back {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 600;
+  left: 45%;
+  top: 94%;
+  color: orangered;
+}
+#back:hover {
+  color: dodgerblue;
+}
