@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="body11.css" />
+    <title>Herbs</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li onclick="showBotanics()">botanists</li>
+        <li onclick="removeHidden()">herbs & their functions</li>
+        <li id="antibio">
+          <a
+            id="antibio1"
+            href="#"
+            onclick='window.open("https://www.healthline.com/health/natural-antibiotics"); return false;'
+          >
+            antibiotic herbs (Healthline)
+          </a>
+          <hr />
+          <hr />
+          <a
+            id="antibio2"
+            href="#"
+            onclick='window.open("https://health.clevelandclinic.org/natural-antibiotics"); return false;'
+          >
+            Why You Shouldn’t Self-Treat With ‘Natural Antibiotics’
+          </a>
+        </li>
+        <li onclick="removeHiddenAntibacterial()">antibacterial herbs</li>
+        <li onclick="removeHiddenAntiViral()">antiviral herbs</li>
+        <li onclick="window.location.href='oils.html'">healthy oils</li>
+        <li><a href="index.html">back</a></li>
+      </ul>
+    </nav>
+    <div class="herbs hidden" id="herbsSearch">
+      <div class="filter-container">
+        <input
+          type="text"
+          id="filter"
+          class="filter"
+          placeholder="Search your herbs..just type in (results are taken from https://draxe.com/nutrition/top-herbs-spices-healing/)"
+        />
+      </div>
+      <div id="posts-container"></div>
+
+      <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <div class="botanic-container hidden" id="botanicContainer">
+      <div class="card">
+        <h3>Medieval Times</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=P_fbwZ-jZAE"); return false;'
+        >
+          The Untold Story of Herbal Medicine
+        </a>
+      </div>
+      <div class="card">
+        <h3>Plants our Ancestors used</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=Bm-_XiVL7XI"); return false;'
+        >
+          8 Wonders of Nature
+        </a>
+      </div>
+      <div class="card">
+        <h3>Origin of botany</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=8guIEQVIr5w"); return false;'
+        >
+          Pioneering Botanists and Their Times
+        </a>
+      </div>
+      <div class="card">
+        <h3>Theophrastus</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=P1c6PX-Zj1M"); return false;'
+        >
+          The Father of Botany
+        </a>
+      </div>
+      <div class="card">
+        <h3>Pedanius Dioscorides</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=XCWRYLXBunU"); return false;'
+        >
+          Pedanius Dioscorides - De Materia Medica
+        </a>
+      </div>
+      <div class="card">
+        <h3>Hildegard Von Bingen</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=Czpv38-it8A"); return false;'
+        >
+          Hildegard Von Bingen - Medicine in Medieval Gardens
+        </a>
+      </div>
+      <div class="card">
+        <h3>Leonardo da Vinci</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=KRi3d0s3O0o"); return false;'
+        >
+          The Genius Between Art and Botany
+        </a>
+      </div>
+      <div class="card">
+        <h3>Maria Sibylla Merian</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=ACzvcmMYt-0"); return false;'
+        >
+          The Mother of Botanical Illustration
+        </a>
+      </div>
+      <div class="card">
+        <h3>Katherine Esau</h3>
+        <hr />
+        <a
+          href="#"
+          onclick='window.open("https://www.youtube.com/watch?v=fB3dtykocmE"); return false;'
+        >
+          The Pioneer of Botanical Anatomy </a
+        ><br /><br />
+      </div>
+    </div>
+
+    <div class="antibacterialContainer hidden" id="antibacterialContainer">
+      <h2>Antibacterial Herbs:</h2>
+      <div class="card">
+        <h3 id="nameAntibacHerb">Calendula (Calendula officinalis)</h3>
+        <img
+          id="imgAntibacHerb"
+          width="300px"
+          height="150px"
+          src="https://cdn.pixabay.com/photo/2020/01/01/16/54/calendula-officinalis-4733947_640.jpg"
+        />
+        <hr />
+        <a
+          id="linkAntibacHerb"
+          href="https://en.wikipedia.org/wiki/Calendula"
+          target="_blank"
+        >
+          read more about plant</a
+        ><br />
+
+        <a
+          href="#"
+          onclick='window.open("https://www.wellnessrxllc.com/post/antibacterial-antiviral-herbs-and-how-to-use-them"); return false;'
+        >
+          read how to use it
+        </a>
+        <hr />
+        <button onclick="showNextAntibac()">next herb</button>
+      </div>
+    </div>
+    <div class="antiviralContainer hidden" id="antiviralContainer">
+      <h2>Antiviral Herbs:</h2>
+      <div class="card">
+        <h3 id="nameAntiviralHerb">
+          Astragalus Root (Astragalus membranaceus)
+        </h3>
+        <img
+          id="imgAntiviralHerb"
+          width="300px"
+          height="150px"
+          src="https://cdn.pixabay.com/photo/2020/03/25/15/27/stay-at-home-4967692_640.jpg"
+        />
+        <hr />
+        <a
+          id="linkAntiviralHerb"
+          href="https://www.fusionhealth.com.au/blogs/fusionhealth-healthhub-blog-astragalus-traditional-benefits.html?lang=en_AU"
+          target="_blank"
+        >
+          read more about plant</a
+        ><br />
+
+        <a
+          href="#"
+          onclick='window.open("https://www.wellnessrxllc.com/post/antibacterial-antiviral-herbs-and-how-to-use-them"); return false;'
+        >
+          read how to use it
+        </a>
+        <hr />
+        <button onclick="showNextAntiviral()">next herb</button>
+      </div>
+    </div>
+    <img
+      id="grandma"
+      src="https://cdn.pixabay.com/photo/2024/02/15/16/10/portrait-8575702_640.jpg"
+    />
+    <script src="body11.js"></script>
+  </body>
+</html>

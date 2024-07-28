@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url(Images/oil-5955575_1280.jpg);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  width: 50%;
+}
+.drop {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background: conic-gradient(#c98e04, #fef8c8, #f7df59, #ffffe7, #e8c011);
+  border: 1px solid #6d2b00;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.drop:nth-child(odd) {
+  margin-left: 80px;
+}
+.oilName {
+  font-size: 1.5rem;
+  margin-top: 60px;
+}
+.oilDetails {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  height: 440px;
+  width: 440px;
+  border-radius: 50%;
+  background: conic-gradient(#ffffe7, #fef8c8, #f7df59, #cb8e00, #e8c011);
+  border: 2px solid #6d2b00;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.oilName2 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  color: orangered;
+}
+.hidden {
+  display: none;
+}
