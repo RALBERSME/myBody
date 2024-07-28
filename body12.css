@@ -11,7 +11,7 @@ body {
   font-family: sans-serif;
 }
 .wrapper {
-  margin: 10% 5%;
+  margin: 5%;
 }
 .timeline {
   display: flex;
@@ -114,8 +114,7 @@ body {
 }
 
 .timeline-item:nth-child(odd) {
-  top: calc(100% + 47px);
-  transform: rotateX(180deg);
+  top: calc(100% + 27px);
   transform-origin: top;
 }
 
@@ -140,6 +139,7 @@ h1 {
   font-size: 5rem;
   text-shadow: 2px 2px 2px black;
 }
+
 .infoText {
   position: absolute;
   top: 50%;
