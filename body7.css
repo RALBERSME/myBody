@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(187, 216, 245),
+    rgb(228, 238, 249)
+  );
+  overflow: hidden;
+}
+.container {
+  margin: 1%;
+  /* background: url("Images/anatomical-position-6974512_1280.png");
+  background-position: 60% 40%;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  width: 90%;
+  height: 90%;
+}
+.containerLeft {
+  position: absolute;
+  top: 0%;
+  margin: 1%;
+  left: 72%;
+  width: 90%;
+  height: 90%;
+}
+#human {
+  position: absolute;
+  top: 4%;
+  left: 25%;
+  width: 900px;
+  height: 900px;
+}
+.dot {
+  color: rgb(14, 62, 110);
+  background-color: rgb(248, 244, 176);
+  border: 2px solid rgb(14, 62, 110);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.num {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+.card {
+  padding: 2px;
+  width: 450px;
+  /* height: 400px; */
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(196, 239, 249);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+a {
+  text-decoration: none;
+  color: rgb(3, 38, 72);
+}
+a:hover {
+  color: orangered;
+}
+#one {
+  position: absolute;
+  top: 71%;
+  left: 38%;
+}
+#two {
+  position: absolute;
+  top: 51%;
+  left: 27%;
+}
+#three {
+  position: absolute;
+  top: 21%;
+  left: 30%;
+}
+#four {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+}
+#five {
+  position: absolute;
+  top: 40%;
+  left: 29%;
+}
+#six {
+  position: absolute;
+  top: 92%;
+  left: 33%;
+}
+#seven {
+  position: absolute;
+  top: 7%;
+  left: 35%;
+}
+.hidden {
+  opacity: 0;
+}
+
+#cta {
+  position: absolute;
+  top: 75%;
+  left: 43%;
+  color: rgb(29, 109, 190);
+  font-weight: bold;
+}
+#goBack {
+  background-color: rgb(185, 216, 248);
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: -7.5px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#goBack:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+#goBack a:hover {
+  color: yellow;
+}

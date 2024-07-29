@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="body8.css" />
+    <title>Science</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="split">
+        <div class="secondOpinion">
+          <img
+            width="100%"
+            height="40%"
+            src="https://cdn.pixabay.com/photo/2024/06/06/06/58/pharmacy-8812002_960_720.jpg"
+          /><br /><br /><br />
+          <h1>Always get a second opinion!</h1>
+          <br /><br />
+          <div class="docs">
+            <img
+              width="49.5%"
+              height="250px"
+              src="https://cdn.pixabay.com/photo/2024/05/23/20/42/doctor-8783871_640.jpg"
+            /><img
+              width="49.5%"
+              height="250px"
+              src="https://cdn.pixabay.com/photo/2024/05/29/08/03/ai-generated-8795644_640.jpg"
+            />
+          </div>
+        </div>
+        <div class="searchContainer">
+          <input
+            type="text"
+            id="searchFor"
+            onkeyup="search()"
+            placeholder="Search for illness...."
+          />
+
+          <ul id="illness">
+            <li><a href="#" onclick="getCard0()">Alzheimer's disease</a></li>
+            <li>
+              <a href="#" onclick="getCard1()"
+                >Athritis - Rheumatoid arthritis</a
+              >
+            </li>
+
+            <li><a href="#" onclick="getCard2()">Parkinson's disease</a></li>
+            <li><a href="#">More to come</a></li>
+            <li><a href="#">More to come</a></li>
+            <li><a href="#">More to come</a></li>
+          </ul>
+          <a id="back" href="index.html">back to main page</a>
+        </div>
+        <div class="card hidden" id="card">
+          <!-- <h2 id="cardTitle">
+            Alzheimer's disease
+            <i
+              id="close"
+              onclick="closeCard()"
+              class="fa fa-times"
+              aria-hidden="true"
+            ></i>
+          </h2>
+
+          <div class="details" id="details">
+            <p><u>What is it?</u></p>
+            <br />
+            <a
+              href="#"
+              onclick='window.open("https://en.wikipedia.org/wiki/Alzheimer%27s_disease"); return false;'
+            >
+              It is the cause of 60–70% of cases of dementia. </a
+            ><br /><br />
+
+            <p><u>How to prevent?</u></p>
+            <br />
+            <a
+              href="#"
+              onclick='window.open("https://www.youtube.com/watch?v=xBDGgovA1LI"); return false;'
+            >
+              5 ways to build an Alzheimer’s-resistant brain | Lisa Genova </a
+            ><br />
+            <p><u>How to heal?</u></p>
+            <br />
+            <a
+              href="#"
+              onclick='window.open("https://www.youtube.com/watch?v=tkIg-SxPzTA"); return false;'
+            >
+              Alzheimer’s Is Not Normal Aging — And We Can Cure It | Samuel
+              Cohen | TED Talks </a
+            ><br />
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="body8.js"></script>
+  </body>
+</html>

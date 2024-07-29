@@ -91,12 +91,17 @@ a:hover {
 
 #back {
   position: absolute;
-  font-size: 2rem;
-  font-weight: 600;
-  left: 45%;
+  left: 38%;
   top: 94%;
   color: orangered;
 }
-#back:hover {
+
+.backA {
+  color: orangered;
+  margin-right: 25px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+#back .backA:hover {
   color: dodgerblue;
 }
