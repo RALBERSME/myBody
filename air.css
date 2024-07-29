@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  margin: 2.5% auto;
+  background: url("Images/under-water-1819586_1280.jpg");
+  height: 90%;
+  width: 90%;
+  color: white;
+  padding: 25px;
+  padding-right: 60%;
+  font-size: 1.4rem;
+}
+#questions {
+  padding-right: 40%;
+}
+a {
+  text-decoration: none;
+  color: rgb(247, 231, 201);
+}
+i {
+  color: rgb(247, 231, 201);
+}
+a:hover,
+i:hover {
+  color: rgb(175, 127, 38);
+}
+p {
+  margin-bottom: 15px;
+}
+.exercise {
+  position: absolute;
+  top: 10%;
+  left: 58%;
+  height: 90%;
+  width: 90%;
+  color: white;
+  padding: 15px;
+  padding-right: 55%;
+  font-size: 1.4rem;
+}
+.breath {
+  background-color: gold;
+  color: black;
+  position: absolute;
+  padding: 5px 25px;
+  width: 33%;
+  font-size: 1.5rem;
+  list-style: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  transform: scale(1);
+  text-align: center;
+  animation: breathing 2s 0s ease-in-out infinite;
+  cursor: pointer;
+}
+.breathe1 {
+  top: 28%;
+  left: 58%;
+}
+.breathe2 {
+  top: 38%;
+  left: 58%;
+}
+
+@keyframes breathing {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.breath a {
+  color: black;
+  text-decoration: none;
+}
+#back {
+  position: absolute;
+  top: 48%;
+  left: 60%;
+  color: white;
+}
+#back a {
+  color: white;
+}
+#back a:hover {
+  color: orangered;
+}
