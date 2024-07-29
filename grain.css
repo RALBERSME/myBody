@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2020/07/31/09/24/rye-5452454_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  margin: 5% 5% 0% 5%;
+  background-color: rgb(248, 236, 212);
+  width: 90%;
+  height: 80%;
+  border-radius: 5px;
+}
+#wheat {
+  position: absolute;
+  top: 92%;
+  left: 5%;
+  width: 50px;
+  height: 10px;
+  animation: growWheat 8s 1s linear forwards;
+}
+
+@keyframes growWheat {
+  from {
+    top: 92%;
+    left: 5%;
+    width: 50px;
+    height: 10px;
+  }
+  to {
+    top: 15%;
+    left: 5%;
+    width: 390px;
+    height: 900px;
+  }
+}
+
+/*nav */
+nav {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: green;
+  font-size: 1.32rem;
+}
+li {
+  margin-top: 5px;
+  list-style: none;
+  padding: 5px 25px;
+  background-color: rgb(154, 203, 154);
+  border: 2px solid green;
+  border-left: transparent;
+  border-top: transparent;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0.3);
+}
+li:first-child {
+  opacity: 0;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+a:hover {
+  color: rgb(246, 235, 215);
+}
+.infoText {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 300px;
+  height: 250px;
+  font-size: 1.5rem;
+  color: green;
+}
+.infoText a,
+.moreData a {
+  text-decoration: none;
+  color: rgb(128, 94, 0);
+}
+.infoText a:hover,
+.moreData a:hover {
+  color: rgb(250, 193, 37);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+/*moreData*/
+.moreData {
+  position: absolute;
+  width: 750px;
+  top: 25%;
+  left: 50%;
+  font-size: 1.25rem;
+  color: green;
+}
+.back {
+  display: flex;
+  justify-content: space-between;
+}
