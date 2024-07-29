@@ -77,7 +77,7 @@ function showInfo5() {
           href="#"
           onclick='window.open("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7756780/"); return false;'
           >read more on modern Wheat from NIH (National Library of Medicine / USA)
-        </a>
+        </a><br>
         <a
           href="#"
           onclick='window.open("https://www.reddit.com/r/AskHistorians/comments/lk7tt4/wheat_when_and_how_did_it_change_and_is_it_lost/"); return false;'
