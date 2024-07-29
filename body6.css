@@ -144,3 +144,6 @@ a:hover {
   font-size: 1.45rem;
   margin-top: -3%;
 }
+.introText h2 {
+  margin-bottom: 15px;
+}
