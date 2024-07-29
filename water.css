@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("Images/minerals-8831396_640.png");
+  background-position: center/cover;
+}
+.container {
+  margin: 2.5%;
+  background-color: #f5e8be;
+  padding: 15px;
+  text-align: center;
+}
+.intro {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+.cardWrapper {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, #0486ad, #e9c198, #865979);
+  border-radius: 20px;
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 200px;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.card:hover img {
+  height: 300px;
+  left: 100%;
+}
+
+.content {
+  position: relative;
+  width: 40%;
+  left: 20%;
+  color: white;
+  text-transform: capitalize;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.traceMinerals,
+.macrominerals {
+  background-color: rgb(243, 224, 187);
+}
+.card:hover .content {
+  left: 5%;
+  opacity: 1;
+}
+h1 {
+  color: #66363f;
+  font-size: 2.5rem;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  color: #111;
+  padding: 5px 10px;
+  background: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#back {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background: linear-gradient(45deg, #0dccd8, #e9c198);
+  border-radius: 20px;
+  justify-content: center;
+}
+
+#back a:hover,
+#intro a:hover {
+  background-color: rgb(9, 92, 144);
+  color: white;
+}
+#intro {
+  position: relative;
+  width: 420px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background: linear-gradient(45deg, #0dccd8, #e9c198);
+  border-radius: 20px;
+  justify-content: center;
+}
