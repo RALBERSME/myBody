@@ -33,24 +33,24 @@ a:hover {
 #crane {
   position: absolute;
   top: 3.5%;
-  left: 3.5%;
+  left: 3%;
 }
 #drop1 {
   position: absolute;
   top: 5.53%;
-  left: 3.45%;
+  left: 3.05%;
   transform: scale(0.5);
   animation: droping1 9s 3s ease-in-out infinite;
 }
 @keyframes droping1 {
   0% {
     top: 5.53%;
-    left: 3.45%;
+    left: 3.05%;
     transform: scale(0.2);
   }
   40% {
     top: 5.8%;
-    left: 3.45%;
+    left: 3.05%;
     transform: scale(0.5);
   }
   100% {
@@ -63,48 +63,48 @@ a:hover {
 #drop2 {
   position: absolute;
   top: 5.53%;
-  left: 3.46%;
+  left: 3.16%;
   transform: scale(0.5);
   animation: droping2 6s 5s ease-in-out infinite;
 }
 @keyframes droping2 {
   0% {
     top: 5.53%;
-    left: 3.46%;
+    left: 3%;
     transform: scale(0.5);
   }
   60% {
     top: 5.9%;
-    left: 3.46%;
+    left: 3%;
     transform: scale(0.8);
   }
   100% {
     top: 100%;
-    left: 3.5%;
+    left: 3.2%;
     transform: scale(1);
   }
 }
 #drop3 {
   position: absolute;
   top: 5.53%;
-  left: 3.46%;
+  left: 2.9%;
   transform: scale(0.25);
   animation: droping3 4s 8s ease-in-out infinite;
 }
 @keyframes droping3 {
   0% {
     top: 5.53%;
-    left: 3.46%;
+    left: 2.9%;
     transform: scale(0.25);
   }
   60% {
     top: 6.5%;
-    left: 3.6%;
+    left: 2.9%;
     transform: scale(0.5);
   }
   100% {
     top: 100%;
-    left: 3.5%;
+    left: 2.7%;
     transform: scale(1);
   }
 }

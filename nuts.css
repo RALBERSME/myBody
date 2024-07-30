@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(248, 243, 234);
+}
+
+.banner {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 100%;
+  padding: 25px auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+}
+marquee {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.detailContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 480px;
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.layer1 {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(136, 62, 6);
+  color: white;
+}
+
+.layer1 h2 {
+  margin-top: 80px;
+}
+
+#almonds {
+  background: url("https://cdn.pixabay.com/photo/2022/12/31/02/27/ai-generated-7687920_640.jpg");
+  transition: 0.5s;
+}
+#pistachios {
+  background: url("https://cdn.pixabay.com/photo/2024/05/20/09/04/ai-generated-8774303_640.png");
+  transition: 0.5s;
+}
+#walnut {
+  background: url("https://cdn.pixabay.com/photo/2017/10/04/17/22/walnut-2816935_640.jpg");
+  transition: 0.5s;
+}
+#cashews {
+  background: url("https://cdn.pixabay.com/photo/2012/07/09/07/44/cashew-nut-52066_640.jpg");
+  transition: 0.5s;
+}
+#pecans {
+  background: url("https://cdn.pixabay.com/photo/2019/08/16/20/25/pecan-4411021_640.jpg");
+  transition: 0.5s;
+}
+#macadamia {
+  background: url("https://cdn.pixabay.com/photo/2017/08/28/15/41/fruits-2690052_640.jpg");
+  transition: 0.5s;
+}
+#brazil {
+  background: url("https://cdn.pixabay.com/photo/2016/05/27/19/14/olympiad-in-brasil-1420476_640.jpg");
+  transition: 0.5s;
+}
+#hazelnuts {
+  background: url("https://cdn.pixabay.com/photo/2021/09/08/13/56/nut-6606972_640.jpg");
+  transition: 0.5s;
+}
+#peanuts {
+  background: url("https://cdn.pixabay.com/photo/2017/11/27/22/18/peanut-2982398_640.jpg");
+  transition: 0.5s;
+}
+.layer2 h2 {
+  font-size: 50px;
+  color: white;
+  transition: 0.5s;
+}
+
+.card:hover .layer2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+}
+
+.card:hover .layer2 h2 {
+  color: white;
+  font-size: 32px;
+}
+
+/* info */
+.info {
+  text-align: center;
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+}
+.info a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  color: brown;
+  cursor: pointer;
+}
+.info a:hover {
+  color: green;
+  transform: translateX(3px) translateY(3px);
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+#squirrel {
+  position: absolute;
+  left: 80%;
+  top: 80%;
+}
