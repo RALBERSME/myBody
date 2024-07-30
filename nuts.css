@@ -62,7 +62,9 @@ marquee {
 .layer1 h2 {
   margin-top: 80px;
 }
-
+li {
+  list-style: none;
+}
 #almonds {
   background: url("https://cdn.pixabay.com/photo/2022/12/31/02/27/ai-generated-7687920_640.jpg");
   transition: 0.5s;
