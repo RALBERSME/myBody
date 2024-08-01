@@ -175,7 +175,7 @@ body {
   width: 270px;
   height: 320px;
   transform: rotate(0deg);
-  animation: flyUp 5s 8s ease-in-out forwards;
+  animation: flyUp 5s 7.5s ease-in-out forwards;
 }
 @keyframes flyUp {
   0% {
