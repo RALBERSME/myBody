@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="acid.css" />
+    <title>Acid Alkaline Balance</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="entry">
+        <h2>
+          To stay healthy, our body needs both acidic and alkaline substances,
+          but in the right proportions. For example, <br />around 70 to 80% of
+          our food should be alkaline and only 20 to 30% of our food should be
+          acidic.
+        </h2>
+        <br /><br /><br />
+        <h3>
+          Imbalance might result in / or could promote:<br />
+          Allergies, Alzheimer’s disease, Arteriosclerosis, Arthritis, Bone
+          fractures, Bronchitis, Cancer, Candida overgrowth, Cardiovascular
+          disease, Chronic fatigue syndrome, Chronic infections, Dementia,
+          Depression, Diabetes, Fibromyalgia, Heart attacks, High blood
+          pressure, High cholesterol, Hormonal imbalances, Immune deficiencies,
+          Insulin sensitivity, Kidney disease, Lou Gehrig’s disease, Multiple
+          sclerosis, Muscular dystrophy, Obesity, Osteoarthritis, Osteoporosis,
+          Parkinson’s disease, Premature aging, Premature hair graying, Prostate
+          problems, Senility, Sinusitis, Stroke, Tooth decay and loss of teeth,
+          Weight problems and many more.
+        </h3>
+      </div>
+      <br /><br /><br />
+      <div class="intro">
+        <a
+          href="#"
+          onclick='window.open("https://www.ncbi.nlm.nih.gov/books/NBK507807/"); return false;'
+          >get more information on Physiology, Acid Base Balance </a
+        ><br /><a
+          href="#"
+          onclick='window.open("https://www.theholistichealthapproach.com/blog/finding-ph-balance"); return false;'
+          >Finding pH Balance </a
+        ><br /><a
+          href="#"
+          onclick='window.open("https://www.lynsharkeynutrition.ie/2021/09/14/9-tips-to-maintain-our-acid-alkaline-balance-and-why-it-is-important/"); return false;'
+          >9 Tips to Maintain our Acid/Alkaline Balance </a
+        ><br /><br /><br /><br />
+      </div>
+      <div class="entry">
+        <h1>Hoever which products are acid - which ones are alkaline?</h1>
+        <h2>
+          Move each product either to "acid" if you think it is acid or to "alk"
+          if you think it is alkaline. <br />
+          After you hear the sound you may click the solution button. The box
+          which turns red shows the incorrect answer.
+        </h2>
+      </div>
+      <br /><br /><br />
+      <section>
+        <article id="acid">
+          <div class="area" text="acid"></div>
+        </article>
+        <article id="start">
+          <div class="area" text="start">
+            <div class="element" draggable="true" id="product">lemon</div>
+          </div>
+        </article>
+        <article id="alk">
+          <div class="area" text="alk"></div>
+        </article>
+      </section>
+
+      <section>
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <button onclick="showResult()">click to check if you are right</button>
+        <button onclick="showNext()" id="btnNext">next product</button>
+      </section>
+      <br /><a id="back" href="body6.html">back to main page </a>
+    </div>
+    <script src="acid.js"></script>
+  </body>
+</html>

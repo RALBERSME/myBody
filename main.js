@@ -1,4 +1,4 @@
-const ape = document.getElementById("ape");
+const head = document.getElementById("head");
 const slideshow = document.getElementById("slideshow");
 const oops = document.getElementById("oops");
 const ball = document.getElementById("ball");
@@ -24,7 +24,7 @@ function showSlides() {
 
 /* enter and remove elements after certain time */
 setTimeout(() => {
-  ape.style.animation = "headRolling 4s 0s ease-out forwards";
+  head.style.animation = "headRolling 4s 0s ease-out forwards";
   oops.style.opacity = "1";
 }, 1000);
 

@@ -142,3 +142,10 @@ hr {
   border: none;
   margin-bottom: 2%;
 }
+#cells {
+  text-decoration: none;
+  color: rgb(43, 131, 218);
+}
+#cells:hover {
+  color: orangered;
+}

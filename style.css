@@ -239,9 +239,9 @@ h1 {
   }
 }
 
-#ape {
+#head {
   position: absolute;
-  top: 31%;
+  top: 23%;
   left: 46.75%;
   transition: rotate(0);
   opacity: 1;
@@ -250,7 +250,7 @@ h1 {
 }
 @keyframes headRolling {
   0% {
-    top: 31%;
+    top: 23%;
     left: 46.75%;
     transform: rotate(0);
   }
