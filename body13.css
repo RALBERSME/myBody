@@ -33,7 +33,7 @@ body {
 
 .backGround {
   height: 100vh;
-  background: url("https://cdn.pixabay.com/photo/2014/03/25/16/59/medicine-297778_640.png");
+  background: url("Images/medicine.jpg");
   background-position: 20% 50%;
   background-size: 30%;
   background-repeat: no-repeat;

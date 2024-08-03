@@ -66,39 +66,39 @@ li {
   list-style: none;
 }
 #almonds {
-  background: url("https://cdn.pixabay.com/photo/2022/12/31/02/27/ai-generated-7687920_640.jpg");
+  background: url("Images/almonds.jpg");
   transition: 0.5s;
 }
 #pistachios {
-  background: url("https://cdn.pixabay.com/photo/2024/05/20/09/04/ai-generated-8774303_640.png");
+  background: url("Images/pistazie.jpg");
   transition: 0.5s;
 }
 #walnut {
-  background: url("https://cdn.pixabay.com/photo/2017/10/04/17/22/walnut-2816935_640.jpg");
+  background: url("Images/walnut.jpg");
   transition: 0.5s;
 }
 #cashews {
-  background: url("https://cdn.pixabay.com/photo/2012/07/09/07/44/cashew-nut-52066_640.jpg");
+  background: url("Images/cashew.jpg");
   transition: 0.5s;
 }
 #pecans {
-  background: url("https://cdn.pixabay.com/photo/2019/08/16/20/25/pecan-4411021_640.jpg");
+  background: url("Images/pecan.jpg");
   transition: 0.5s;
 }
 #macadamia {
-  background: url("https://cdn.pixabay.com/photo/2017/08/28/15/41/fruits-2690052_640.jpg");
+  background: url("Images/fruits4.jpg");
   transition: 0.5s;
 }
 #brazil {
-  background: url("https://cdn.pixabay.com/photo/2016/05/27/19/14/olympiad-in-brasil-1420476_640.jpg");
+  background: url("Images/brazil.jpg");
   transition: 0.5s;
 }
 #hazelnuts {
-  background: url("https://cdn.pixabay.com/photo/2021/09/08/13/56/nut-6606972_640.jpg");
+  background: url("Images/hazelnut.jpg");
   transition: 0.5s;
 }
 #peanuts {
-  background: url("https://cdn.pixabay.com/photo/2017/11/27/22/18/peanut-2982398_640.jpg");
+  background: url("Images/peanut.jpg");
   transition: 0.5s;
 }
 .layer2 h2 {

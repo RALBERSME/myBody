@@ -616,56 +616,48 @@ const antibacHerbsArray = [
   {
     name: "Calendula (Calendula officinalis)",
     link: "https://en.wikipedia.org/wiki/Calendula",
-    image:
-      "https://cdn.pixabay.com/photo/2020/01/01/16/54/calendula-officinalis-4733947_640.jpg",
+    image: "Images/calendula.jpg",
   },
   {
     name: "Cinnamon (Cinamomum zeylanicum)",
     link: "https://krishi.icar.gov.in/jspui/bitstream/123456789/31031/1/Chapter%209.pdf",
-    image:
-      "https://cdn.pixabay.com/photo/2013/03/11/16/08/cinnamon-92594_640.jpg",
+    image: "Images/cinnamon.jpg",
   },
   {
     name: "Clove (Syzygium aromaticum)",
     link: "https://www.britannica.com/plant/clove",
-    image:
-      "https://cdn.pixabay.com/photo/2020/07/07/04/32/white-clover-5379217_960_720.jpg",
+    image: "Images/white-clover.jpg",
   },
   {
     name: "Garlic (Allium sativum)",
     link: "https://www.britannica.com/plant/garlic",
-    image:
-      "https://cdn.pixabay.com/photo/2019/04/08/08/45/garlic-4111597_640.jpg",
+    image: "Images/garlic.jpg",
   },
   {
     name: "Echinacea (Echinacea angustifolia",
     link: "https://www.medicalnewstoday.com/articles/252684",
-    image:
-      "https://cdn.pixabay.com/photo/2019/07/26/18/33/purple-coneflower-4365379_640.jpg",
+    image: "Images/purple.jpg",
   },
   {
     name: "Oregon Grape Root (Mahonia aquifolium)",
     link: "https://www.gaiaherbs.com/blogs/herbs/oregon-grape",
-    image:
-      "https://cdn.pixabay.com/photo/2012/11/08/23/35/oregon-state-flower-65432_640.jpg",
+    image: "Images/oregon.jpg",
   },
 
   {
     name: "Usnea (Usnea barbata)",
     link: "https://en.wikipedia.org/wiki/Usnea",
-    image: "https://cdn.pixabay.com/photo/2014/07/05/00/24/tree-384370_640.jpg",
+    image: "Images/tree.jpg",
   },
   {
     name: "Uva Ursi (Arctostaphylos uva-ursi)",
     link: "https://en.wikipedia.org/wiki/Arctostaphylos_uva-ursi",
-    image:
-      "https://cdn.pixabay.com/photo/2016/10/13/14/59/bearberry-1737983_960_720.jpg",
+    image: "Images/bearberry.jpg",
   },
   {
     name: "Yarrow (Achillea millefolium)",
     link: "https://www.fs.usda.gov/wildflowers/plant-of-the-week/achillea_millefolium.shtml",
-    image:
-      "https://cdn.pixabay.com/photo/2018/09/16/11/10/yarrow-plant-3681169_1280.jpg",
+    image: "Images/yarrow-plant.jpg",
   },
 ];
 let countAntibacs = 0;
@@ -695,63 +687,53 @@ const antiviralHerbsArray = [
   {
     name: "Astragalus Root (Astragalus membranaceus)",
     link: "https://www.fusionhealth.com.au/blogs/fusionhealth-healthhub-blog-astragalus-traditional-benefits.html?lang=en_AU",
-    image:
-      "https://cdn.pixabay.com/photo/2020/03/25/15/27/stay-at-home-4967692_640.jpg",
+    image: "Images/stay-at-home.jpg",
   },
   {
     name: "Cat's Claw (Uncaria tomentosa)",
     link: "https://naturalpoland.com/en/products/plant-extracts/cat-s-claw-uncaria-tomentosa-extract/",
-    image:
-      "https://cdn.pixabay.com/photo/2020/06/21/15/14/cats-paw-5325371_640.png",
+    image: "Images/cats-paw.jpg",
   },
   {
     name: "Cranberry (Vaccinium macrocarpon)",
     link: "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/cs_vaox.pdf",
-    image:
-      "https://cdn.pixabay.com/photo/2022/01/20/19/38/fruit-6953246_1280.jpg",
+    image: "Images/fruit3.jpg",
   },
   {
     name: "Elderberry (Sambucus nigra)",
     link: "https://strictlymedicinalseeds.com/product/elderberry-black-sambucus-nigra-potted-plant-organic/",
-    image:
-      "https://cdn.pixabay.com/photo/2020/08/16/15/40/elderberry-5493109_640.jpg",
+    image: "Images/elderberry.jpg",
   },
   {
     name: "Ginger (Zingiber officinale)",
     link: "https://www.britannica.com/plant/ginger",
-    image:
-      "https://cdn.pixabay.com/photo/2020/02/23/08/42/root-4872621_640.jpg",
+    image: "Images/root.jpg",
   },
   {
     name: "Lemon Balm (Melissa officinalis)",
     link: "https://en.wikipedia.org/wiki/Lemon_balm",
-    image:
-      "https://cdn.pixabay.com/photo/2017/06/04/11/10/melissa-2370812_640.jpg",
+    image: "Images/melissa.jpg",
   },
 
   {
     name: "Licorice Root (Glycyrrhiza glabra)",
     link: "https://www.healthline.com/nutrition/licorice-root",
-    image:
-      "https://cdn.pixabay.com/photo/2016/09/05/18/26/board-1647323_640.jpg",
+    image: "Images/board.jpg",
   },
   {
     name: "Mullein (Verbascum Thapsus)",
     link: "http://floreduquebec.ca/english/verbascum-thapsus",
-    image:
-      "https://cdn.pixabay.com/photo/2021/07/12/18/27/mulleins-6416231_1280.jpg",
+    image: "Images/mulleins.jpg",
   },
   {
     name: "Olive Leaf (Olea europaea)",
     link: "https://karger.com/anm/article/76/1/10/52354/Olive-Leaf-Olea-europaea-L-folium-Potential",
-    image:
-      "https://cdn.pixabay.com/photo/2016/10/19/21/23/tree-1754051_640.jpg",
+    image: "Images/tree2.jpg",
   },
   {
     name: "Oregano (Origanum vulgare)",
     link: "https://www.britannica.com/plant/oregano",
-    image:
-      "https://cdn.pixabay.com/photo/2020/01/05/19/32/oregano-4743918_640.jpg",
+    image: "Images/oregano2.jpg",
   },
 ];
 let countAntiviral = 0;
