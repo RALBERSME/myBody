@@ -120,12 +120,17 @@ input::placeholder {
 .hidden {
   display: none;
 }
-#back {
+#back,
+#next {
   text-decoration: none;
   color: goldenrod;
   font-size: 20px;
   font-weight: bold;
 }
-#back:hover {
+#back:hover,
+#next:hover {
   color: orangered;
+}
+#next {
+  margin-left: 650px;
 }
