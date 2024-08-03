@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to right bottom,
+    rgb(11, 132, 253),
+    rgb(134, 189, 244),
+    rgb(153, 199, 245),
+    rgb(210, 226, 243)
+  );
+}
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: 0%;
+  left: 0%;
+  background: url("https://cdn.pixabay.com/photo/2023/09/12/22/42/love-8249713_640.png");
+  background-repeat: repeat-x;
+}
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 2.5%;
+}
+.container {
+  margin: 5%;
+}
+
+.pyramid {
+  margin-top: 10%;
+  height: 80vh;
+  width: 100%;
+  background: url("Images/pyramid-8069938_1280.png");
+  background-position: 50% 50%;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+#introHead {
+  position: absolute;
+  top: 30%;
+  left: 2.5%;
+  width: 40%;
+}
+#introHead a {
+  text-decoration: none;
+  color: rgb(2, 42, 83);
+}
+#introHead a:hover {
+  color: orangered;
+}
+.top {
+  font-size: 1.75rem;
+  left: 50%;
+  font-weight: 800;
+  position: absolute;
+  list-style: none;
+  transform: translateX(1000px);
+}
+#top1 {
+  top: 28%;
+  animation: slideIn 3s 16s linear forwards;
+}
+#top2 {
+  top: 40%;
+  animation: slideIn 3s 12s linear forwards;
+}
+#top3 {
+  top: 51%;
+  animation: slideIn 3s 8s linear forwards;
+}
+#top4 {
+  top: 63%;
+  animation: slideIn 3s 4s linear forwards;
+}
+#top5 {
+  top: 74%;
+  animation: slideIn 3s 1s linear forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+#top6 {
+  position: absolute;
+  left: 36%;
+  top: 85%;
+  transform: rotateX(-90deg);
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: dodgerblue;
+  list-style: none;
+  animation: rollIn 3s 20s linear forwards;
+}
+#top6 a {
+  text-decoration: none;
+  color: black;
+}
+#top6 a:hover {
+  color: orangered;
+}
+@keyframes rollIn {
+  from {
+    transform: rotateX(-90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}

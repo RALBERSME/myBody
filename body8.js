@@ -223,3 +223,70 @@ function getCard2() {
             >
           </div>`;
 }
+function getCard3() {
+  removeHidden();
+  document.getElementById("card").innerHTML = `
+<h2 id="cardTitle">
+            Fever
+            <i
+              id="close"
+              onclick="closeCard()"
+              class="fa fa-times"
+              aria-hidden="true"
+            ></i>
+          </h2>
+
+          <div class="details" id="details">
+            <p><u>What is it?</u></p>
+            <br />
+            <a
+              href="#"
+              onclick='window.open("https://en.wikipedia.org/wiki/Fever"); return false;'
+            >
+              Fever is a rise in body temperature, usually caused by infection. There is no single agreed-upon upper limit for normal temperature: sources use values ranging between 37.2 and 38.3 °C (99.0 and 100.9 °F) in humans. Fevers do not typically go higher than 41 to 42 °C (106 to 108 °F).</a
+            ><br /><br />
+
+            <p><u>How to prevent?</u></p>
+            <br />
+            <a
+              href="#"
+              onclick='window.open("https://www.healthline.com/health/fever#prevention"); return false;'
+            ><u>Limiting exposure to infectious agents:</u> 
+                  Wash your hands often, especially before eating, after using the toilet, and after being around large numbers of people.<br>
+    <br>
+    Avoid touching your nose, mouth, or eyes. Doing so makes it easier for viruses and bacteria to enter your body and cause infection.
+    <br>
+    Avoid sharing cups, glasses, and eating utensils with other people. </a
+            ><br /><br>
+            <p><u>How to heal?</u></p>
+            <br />
+            <a
+              href="#"
+              onclick='window.open("https://www.healthline.com/health/how-to-break-a-fever"); return false;'
+            >
+             What You Need to Know About Breaking a Fever</a
+            ><br />
+
+             <br />
+            <a
+              href="#"
+              onclick='window.open("https://vicks.com/en-us/treatments/how-to-treat-the-flu/how-to-reduce-a-fever-associated-with-cold-or-flu"); return false;'
+            >
+              10 Ways to Reduce Fever from a Cold or Flu</a
+            ><br /> <br />
+            <a
+              href="#"
+              onclick='window.open("https://www.medicinenet.com/how_do_you_break_a_fever_naturally/article.htm"); return false;'
+            >
+              How Do You Break a Fever Naturally? </a><br /><br>
+            <a
+              href="#"
+              onclick='window.open("https://www.farmersalmanac.com/10-natural-ways-treat-fever"); return false;'
+            >
+            10 Natural Ways To Treat A Fever
+
+ </a
+            >
+            
+          </div>`;
+}
