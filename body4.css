@@ -13,6 +13,7 @@ body {
     rgb(153, 199, 245),
     rgb(210, 226, 243)
   );
+  overflow: hidden;
 }
 .banner {
   position: absolute;
