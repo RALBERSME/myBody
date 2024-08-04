@@ -6,3 +6,8 @@ thumbs.forEach((thumb, i) => {
     video.src = `video${i + 1}.mp4`;
   });
 });
+
+const audio = new Audio("relaxing-music-FromRelaxingTime.mp3");
+function playSong() {
+  audio.play();
+}
