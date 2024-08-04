@@ -78,14 +78,19 @@ h5:hover {
   color: rgb(104, 120, 143);
 }
 
-#backToMain {
+#backToMain,
+#toNext {
   margin-left: 15px;
   margin-top: 15px;
   font-size: 2rem;
   color: orangered;
 }
+#toNext {
+  font-size: 1.25rem;
+}
 #backToMain:hover,
-#briefHistory:hover {
+#briefHistory:hover,
+#toNext:hover {
   color: white;
 }
 #briefHistory {
