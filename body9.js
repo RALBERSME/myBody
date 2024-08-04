@@ -7,7 +7,7 @@ thumbs.forEach((thumb, i) => {
   });
 });
 
-const audio = new Audio("relaxing-music-FromRelaxingTime.mp3");
+const audio = new Audio("hopeful-piano-fromMusicForVideos.mp3");
 function playSong() {
   audio.play();
 }
