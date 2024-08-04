@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(245, 245, 241);
+}
+.heading {
+  display: flex;
+}
+.container {
+  margin: 3%;
+  text-align: center;
+}
+
+ul {
+  margin-top: 1.5%;
+  margin-bottom: 2.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+  width: 140px;
+  height: 140px;
+  margin: 0 20px;
+  border: 3px solid rgba(79, 3, 91, 0.3);
+  border-radius: 50%;
+  transition: all 0.5s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: rgba(79, 3, 91, 1);
+  justify-content: center;
+}
+
+ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(79, 3, 91, 0.3);
+  border-radius: 50%;
+  transition: all 0.5s;
+  opacity: 0;
+  z-index: -1;
+}
+
+ul li:hover:before {
+  opacity: 1;
+  transform: scale(0.8);
+}
+
+ul li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 10px double rgb(238, 187, 246);
+  transition: all 0.5s;
+  opacity: 0;
+  z-index: -1;
+  box-sizing: border-box;
+}
+
+ul li:hover:after {
+  opacity: 1;
+  animation: growing 2s linear infinite;
+}
+
+@keyframes growing {
+  0% {
+    transform: scale(0.9) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.2) rotate(-360deg);
+  }
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: rgba(79, 3, 91, 1);
+  font-weight: bold;
+}
+.peruLinks {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: space-around;
+}
+.back {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.peruLinks a,
+.back a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px 35px;
+  border-radius: 10px;
+  background-color: rgba(79, 3, 91, 0.3);
+  color: white;
+}
+.peruLinks a:hover,
+.back a:hover {
+  background-color: rgba(126, 92, 132, 0.3);
+  color: black;
+}
