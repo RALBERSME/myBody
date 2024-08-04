@@ -5,7 +5,7 @@
 }
 body {
   height: 100vh;
-  background: url("https://cdn.pixabay.com/photo/2020/07/31/09/24/rye-5452454_640.jpg");
+  background: url("Images/rye.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
